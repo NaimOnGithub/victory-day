@@ -1,27 +1,31 @@
 nav li a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 nav li {
-    list-style: none;
-    display: inline;
-    margin: 20px;
+  list-style: none;
+  display: inline;
+  margin: 20px;
 }
-
 nav li :hover {
-    border: 1px solid black;
+  border: 1px solid black;
 }
-
-#quiz label {}
-
-
 td,
 th {
-    border: 2px solid black;
-    padding: 10px;
-   
+  border: 2px solid black;
+  padding: 10px;
 }
-table{
-    border-collapse: collapse;
+table {
+  border-collapse: collapse;
 }
 
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+.container div {
+    height: 50px;
+    width: 50px;
+    border: 5px solid;
+    font-size: 2em;
+}
