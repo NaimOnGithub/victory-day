@@ -1,11 +1,27 @@
-nav li a{
+nav li a {
     text-decoration: none;
 }
-nav li{
+
+nav li {
     list-style: none;
     display: inline;
     margin: 20px;
 }
-nav li :hover{
+
+nav li :hover {
     border: 1px solid black;
 }
+
+#quiz label {}
+
+
+td,
+th {
+    border: 2px solid black;
+    padding: 10px;
+   
+}
+table{
+    border-collapse: collapse;
+}
+
